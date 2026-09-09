@@ -1,5 +1,5 @@
 {
-  "name": "personaforge-arena",
+  "name": "eidra-agent",
   "version": "0.1.0",
   "private": true,
   "description": "A reproducible prototype for persona agents, retrieval, memory and adversarial evaluation",

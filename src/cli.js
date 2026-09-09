@@ -37,7 +37,7 @@ async function main() {
   }
   const terminal = createInterface({ input: stdin, output: stdout });
   const history = [];
-  console.log('PersonaForge Arena | /remember text | /memories | /forget | /quit');
+  console.log('Eidra Agent | /remember text | /memories | /forget | /quit');
   try {
     while (true) {
       const query = await terminal.question('You > ');

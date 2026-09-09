@@ -10,7 +10,7 @@ test('retrieval ranks relevant evidence and excludes zero overlap', () => {
   assert.equal(retrieve('', [{text:'DPO'}]).length, 0);
 });
 test('memories persist, isolate users, reject traversal and delete', () => {
-  const dir = mkdtempSync(join(tmpdir(), 'personaforge-'));
+  const dir = mkdtempSync(join(tmpdir(), 'eidra-'));
   try {
     const store = new MemoryStore(dir); store.remember('alice', 'DPO experiment');
     assert.equal(new MemoryStore(dir).list('alice').length, 1);

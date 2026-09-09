@@ -1,12 +1,12 @@
 <div align="center">
 
-# PersonaForge Arena
+# Eidra Agent
 
 ### 角色有边界，记忆可追溯，能力可验证。
 
 **面向角色扮演与对抗评测的 Agent 工程与研究原型**
 
-[![CI](https://github.com/vigorlee/personaforge-arena/actions/workflows/ci.yml/badge.svg)](https://github.com/vigorlee/personaforge-arena/actions/workflows/ci.yml)
+[![CI](https://github.com/vigorlee/eidra-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/vigorlee/eidra-agent/actions/workflows/ci.yml)
 ![Stage](https://img.shields.io/badge/stage-v0.1_prototype-blue)
 ![Node](https://img.shields.io/badge/Node.js-22%2B-339933)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -21,7 +21,7 @@ Persona · Memory · Retrieval · Arena · Preference Data
 
 ## 项目定位
 
-PersonaForge Arena 探索一个具体问题：**当对话持续变长、用户试图改变角色、知识证据不足时，怎样让角色型 Agent 保持身份一致、合理利用记忆，并把失败案例转成可审核的改进数据？**
+Eidra Agent 探索一个具体问题：**当对话持续变长、用户试图改变角色、知识证据不足时，怎样让角色型 Agent 保持身份一致、合理利用记忆，并把失败案例转成可审核的改进数据？**
 
 项目以“科研学习伙伴”为首个场景，将角色设定、显式记忆、资料检索、对抗测试与偏好数据组织在同一条可追踪链路中。它服务于角色扮演 LLM、Agentic LLM 和对抗交互方向的工程实践，也为后续 SFT / DPO 实验预留数据接口。
 
@@ -47,8 +47,8 @@ PersonaForge Arena 探索一个具体问题：**当对话持续变长、用户�
 要求 **Node.js 22 或 24**、Git。核心运行时只使用 Node 内置模块，无需安装第三方依赖或 GPU。当前仓库为私有，需要账号访问权限。
 
 ```bash
-git clone https://github.com/vigorlee/personaforge-arena.git
-cd personaforge-arena
+git clone https://github.com/vigorlee/eidra-agent.git
+cd eidra-agent
 npm test
 npm run demo
 npm run eval
@@ -188,7 +188,7 @@ flowchart LR
 ## 目录
 
 ```text
-personaforge-arena/
+eidra-agent/
 ├── config/persona.json          # 角色身份、风格与边界
 ├── fixtures/                    # 知识、静态攻击、合成偏好样例
 ├── src/core.js                  # 检索、记忆、模型适配与数据校验
