@@ -1,0 +1,5 @@
+[
+  {"id":"rag-001","text":"RAG 将检索到的资料提供给语言模型，用于辅助生成；引用仍需核验。","source":"local://curated/rag"},
+  {"id":"dpo-001","text":"DPO 使用同一提示下的 chosen 与 rejected 偏好样本进行后训练。","source":"https://github.com/huggingface/trl"},
+  {"id":"memory-001","text":"长期记忆应按用户隔离，记录来源，并支持查看和删除。","source":"local://curated/memory"}
+]

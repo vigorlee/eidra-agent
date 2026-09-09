@@ -1,0 +1,16 @@
+{
+  "name": "personaforge-arena",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A reproducible prototype for persona agents, retrieval, memory and adversarial evaluation",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "demo": "node src/cli.js demo",
+    "chat": "node --env-file=.env src/cli.js chat",
+    "eval": "node src/cli.js eval",
+    "test": "node --test",
+    "export": "node src/cli.js export"
+  },
+  "license": "MIT"
+}
